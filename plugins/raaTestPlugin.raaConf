@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE raaPlugin>
+<raaPlugin version="0.1">
+  <type>data</type>
+  <name>test</name>
+  <dll>raaTestPlugin</dll>
+</raaPlugin>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="raaMatrix" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQgAAAAEEBgAAAAAAQQQIACCAEAAAACCAAgEAADBAI=</HashCode>
+      <FileName>raaMatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raaMutex" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAAAAAACIQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaMutex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raaQuaternion" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEEAABAAAAAAQAAAAAgAgAAACACRggAAACAAI=</HashCode>
+      <FileName>raaQuaternion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raaThread" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mAAAAAgCAAAAAEOgSEBAAEACAgAAAAAEAAAkAAAAAQA=</HashCode>
+      <FileName>raaThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raaThreadLoop" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACgAACAAKAEAAAAgAAAAgBAAAAEAAAAAIAAAAAA=</HashCode>
+      <FileName>raaThreadLoop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raaUtilities" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAEIAAEAAIAYAAAQAsABABCAACAAAAQABAA=</HashCode>
+      <FileName>raaUtilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="raaVector" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAEAACAAIAIFQIQQgAQEkAAIEAAACgBAAABAI=</HashCode>
+      <FileName>raaVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="raaMatrix4" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaMaths.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raaVector4" Collapsed="true">
+    <Position X="3" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaMaths.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raaThreadHandle" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaUtilities.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raaMutexHandle" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaUtilities.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raaThreadProcessor" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaUtilities.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raaThreadID" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaUtilities.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="raaTime" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>raaUtilities.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Verdana" Size="6.75" />
+</ClassDiagram>

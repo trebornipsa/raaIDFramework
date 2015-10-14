@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>raaDLLTemplate</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>Win32</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>raaDLL</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$raaProjectName$.vcxproj" File="raaDLLTemplate.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$raaProjectName$.vcxproj.filters">raaDLLTemplate.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$raaProjectName$.cpp">raaDLLTemplate.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$raaProjectName$.h">raaDLLTemplate.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$raaProjectName$Defs.h">raaDLLTemplateDefs.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>raaDLLTemplateWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=9f98c0c3bf4926d2</Assembly>
+    <FullClassName>raaDLLTemplateWizard.IWizardImplementation</FullClassName>
+</WizardExtension>
+</VSTemplate>
